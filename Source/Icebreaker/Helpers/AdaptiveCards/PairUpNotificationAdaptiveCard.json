@@ -51,10 +51,15 @@
       "title": "${chatWithMatchButtonText}",
       "url": "https://teams.microsoft.com/l/chat/0/0?users=${personUpn}&message=${chatWithMessageGreeting}"
     },
-    {
+    /*{
       "type": "Action.OpenUrl",
       "title": "${proposeMeetupButtonText}",
       "url": "${meetingLink}"
+    },*/
+    {
+      "type": "Action.OpenUrl",
+      "title": "${proposeMeetupGoogleCalendarButtonText}",
+      "url":  "${meetingLinkGoogleCalendar}"
     },
     {
       "type": "Action.Submit",

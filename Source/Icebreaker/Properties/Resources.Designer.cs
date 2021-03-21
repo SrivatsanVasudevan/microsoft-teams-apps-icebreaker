@@ -259,6 +259,15 @@ namespace Icebreaker.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Go to Google Calendar.
+        /// </summary>
+        public static string ProposeMeetupGoogleCalendarButtonText {
+            get {
+                return ResourceManager.GetString("ProposeMeetupGoogleCalendarButtonText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Resume matches.
         /// </summary>
         public static string ResumePairingsButtonText {
